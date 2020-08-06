@@ -22,6 +22,8 @@ public class EmpWageComputation
 			}
 			totalEmpHrs+=empHrs;
 			System.out.println("Day "+totalWorkingDays+" employee working hours: "+empHrs);
+			int empWagePerDay=empHrs*empWagePerHr;
+			System.out.println("Day "+totalWorkingDays+" employee salary is: "+empWagePerDay);
 		}
 		int totalEmpWage=totalEmpHrs*empWagePerHr;
 		System.out.println("Employee total wage per month is: "+totalEmpWage);
